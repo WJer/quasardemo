@@ -8,6 +8,9 @@ const routes = [
         }, {
             path: "table",
             component: () => import("pages/Table.vue") 
+        }, {
+            path: "package",
+            component: () => import("pages/Package.vue") 
         }]
     }
 ];

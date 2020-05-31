@@ -15,11 +15,11 @@
                                                 是否展示
                                             </div>
                                             <div>
-                                                <q-toggle v-model="col.isStaticLeft" :disable="col.isStaticRight"/>
+                                                <q-toggle v-model="col.isStaticLeft" :disable="!col.isShow || col.isStaticRight"/>
                                                 是否固定左侧
                                             </div>
                                             <div>
-                                                <q-toggle v-model="col.isStaticRight" :disable="col.isStaticLeft"/>
+                                                <q-toggle v-model="col.isStaticRight" :disable="!col.isShow || col.isStaticLeft"/>
                                                 是否固定右侧
                                             </div>
                                         </div>

@@ -5,6 +5,7 @@
 </template>
 
 <script>
+import "./theme/button.scss";
 export default {
     name: "App"
 };
