@@ -1,0 +1,12 @@
+// 按照公司的ui，override组件的样式
+.q-btn {
+    font-size: 16px;
+    line-height: 1.4em;
+    &__wrapper {
+        padding: 0 10px;
+        min-height: 2.172em;
+    }
+    &__wrapper:before {
+        box-shadow: 0 0px 5px #ff8000, 0 0px 5px #ff8000, 0 0px 1px -2px #ff8000;
+    }
+}
