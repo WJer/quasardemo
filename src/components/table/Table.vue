@@ -7,14 +7,11 @@
             <BaseTable :columns="dColumns" ref="table" :list="dDatalist" :page="dPage"></BaseTable>
         </div>
         <div class="cus-table_footer">
-            <BaseFoot :columns="dColumns" :list="dDatalist" :page="dPage" @setTable="setTable"></BaseFoot>
+            <BaseFoot :page="dPage" @setTable="setTable"></BaseFoot>
         </div>
     </div>
 </template>
 <script>
-import {
-    // QBtn
-} from 'quasar'
 import BaseTable from './BaseTable'
 import BaseFilter from './Filter'
 import BaseFoot from './Foot'
